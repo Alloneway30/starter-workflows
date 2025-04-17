@@ -54,7 +54,7 @@ These variables can be placed in the starter workflow and will be substituted as
 ## How to test templates before publishing
 
 ### Disable template for public
-The template author adds a `labels` array in the template's `properties.json` file with a label `preview`. This will hide the template from users, unless user uses query parameter `preview=true` in the URL.
+The template author adds a array in the template's `properties.json` file with a label `preview`. This will hide the template from users, unless user uses query parameter `preview=true` in the URL.
 Example `properties.json` file:
 ```json
 {
